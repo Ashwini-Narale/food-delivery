@@ -44,7 +44,7 @@ const{getTotalCartAmount}=useContext(StoreContext)
             <b>{getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
           </div>
         </div>
-        
+        <button>PROCEED TO PAYMENT</button>
       </div>
 
       </div>
